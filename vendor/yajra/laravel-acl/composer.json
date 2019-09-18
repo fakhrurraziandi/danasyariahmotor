@@ -1,0 +1,59 @@
+{
+    "name": "yajra/laravel-acl",
+    "description": "Laravel ACL is a simple role, permission ACL for Laravel Framework.",
+    "keywords": [
+        "yajra",
+        "laravel",
+        "acl",
+        "user",
+        "role",
+        "permissions"
+    ],
+    "homepage": "https://github.com/yajra/laravel-acl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arjay Angeles",
+            "email": "aqangeles@gmail.com",
+            "homepage": "http://yajrabox.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0.0",
+        "illuminate/support": "^5.3",
+        "illuminate/database": "^5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^6.0",
+        "orchestra/testbench": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yajra\\Acl\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yajra\\Acl\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Yajra\\Acl\\AclServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Style of the plugin -->
+    <link rel="stylesheet" href="plugin/whatsapp-chat-support.css">
+     
+     <link href="bootstrap/bootstrap.min.css" rel="stylesheet" >
+    <!-- jQuery 1.8+ -->
+    <script src="plugin/components/jQuery/jquery-1.11.3.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js" ></script>
+     
+    
+    
+    <link rel="stylesheet" href="plugin/whastsapp-chat-support.css">
+	
+  	<link rel="stylesheet" href="font/css/font-awesome.min.css">
+	
+</head>
+<style>
+
+
+</style>
+<body>
+
+
+    
+	
+	<div class="whatsapp_chat_support wcs_fixed_right wcs-effect-2 wcs_show" id="example_3">
+
+        <div class="wcs_button_label">
+                Questions? Let's Chat
+            </div>  
+        <div class="wcs_button wcs_button_circle">
+            <span class="fa fa-whatsapp"></span>
+        </div>  
+     
+        <div class="wcs_popup">
+            <div class="wcs_popup_close">
+                <span class="fa fa-close"></span>
+            </div>
+            <div class="wcs_popup_header">
+                <span class="fa fa-whatsapp"></span>
+                <strong>Customer Support</strong>
+                
+            <div class="wcs_popup_header_description">Need Help? Chat with us on Whatsapp</div>
+            </div>
+			
+			<div class="wcs_popup_person_container">
+				<div class="wcs_popup_person">
+					<div class="wcs_popup_person_img">
+						<img src="img/person_7.jpg" alt="ss">
+					</div>
+					<div class="wcs_popup_person_content">
+						<div class="wcs_popup_person_name">Mia Smith</div>
+						<div class="wcs_popup_person_description">Sales Support</div>
+						<div class="wcs_popup_person_status">I'm Online</div>
+					</div>
+				
+				</div>
+				<div class="wcs_popup_person">
+					<div class="wcs_popup_person_img">
+						<img src="img/person_7.jpg" alt="ss">
+					</div>
+					<div class="wcs_popup_person_content">
+						<div class="wcs_popup_person_name">Mia Smith</div>
+						<div class="wcs_popup_person_description">Sales Support</div>
+						<div class="wcs_popup_person_status">I'm Online</div>
+					</div>
+				
+				</div>
+			</div>
+            
+        </div>
+    </div>
+	
+</body>
+<!-- Plugin JS file -->
+<script src="plugin/components/moment/moment.min.js"></script>
+<script src="plugin/components/moment/moment-timezone-with-data.min.js"></script> <!-- spanish language (es) -->
+<script src="plugin/whsatsapp-chat-support.js"></script>
+    <script>
+       
+	   $(".wcs_button.wcs_button_circle").click(function(){
+			 $('#example_3').toggleClass("wcs-show");
+			 $(".wcs_button_label").toggleClass("wcs_button_label_hide");
+			 $(".wcs_popup").css("visibility","visible");
+	   });
+	   $(".wcs_popup_close").click(function(){
+			 $('#example_3').toggleClass("wcs-show");
+			 $(".wcs_button_label").toggleClass("wcs_button_label_hide");
+			 $(".wcs_popup").css("visibility","hidden");
+	   });
+    </script>
+
+	
+</html>
