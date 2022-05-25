@@ -28,7 +28,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.8.1",
-        "bootstrap-table": "^1.14.2",
+        "bootstrap-table": "^1.20.2",
         "font-awesome": "^4.7.0",
         "locutus": "^2.0.10",
         "numeral": "^2.0.6",
