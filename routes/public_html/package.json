@@ -33,7 +33,7 @@
         "locutus": "^2.0.10",
         "numeral": "^2.0.6",
         "owl.carousel": "^2.3.4",
-        "select2": "^4.0.6-rc.1",
+        "select2": "^4.0.6",
         "slugify": "^1.3.4"
     }
 }
